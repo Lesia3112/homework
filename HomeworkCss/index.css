@@ -6,15 +6,15 @@
 
 .container {
 display: inline;
-margin: 30px;
+/* margin: 30px; */
 
 }
 
 .nav{
   display: block;
   text-align: center;
-  margin: 0px; auto; 
-  padding: 20px;
+  /* margin: 0px; auto;  */
+  /* padding: 20px; */
   border-bottom: 1px solid black;
   flex-direction: row;
     flex-wrap: nowrap;
@@ -23,13 +23,13 @@ margin: 30px;
 
 .botton{
   display: inline-block;
-  padding: 10px;
+  /* padding: 10px; */
   color: black;
   border: 1px none;
   text-align: center;
   outline: none;
   text-decoration: none;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 
 }
 
