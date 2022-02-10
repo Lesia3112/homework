@@ -40,7 +40,8 @@ display: inline;
 }
 
 .container2 {
-  padding: 0px; 30px; 0px; 30px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .h1{
