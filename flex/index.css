@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+/* .wrapper{
   max-width: 100%;
   width: 1400px;
-  margin: 20px;
-}
+  margin: 20px; */
+/* } */
 
 .container{
   width: 1400px;
@@ -85,4 +85,4 @@ width: 1125 px;
 height: 510 px;
 left: 145px; */
 /* display:inline-blok; */
-/* } *
+/* /* } * */
