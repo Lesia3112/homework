@@ -5,8 +5,9 @@
 }
 
 .wrapper{
-  max: width 1050px;;
+  max-width: 1050px;
   width: 100%;
+  display: block;
   /* margin: 20px; */
   /* display: block; */
   /* width: 1100px;
@@ -85,7 +86,7 @@ h1{
   
 }
 .skills{
-  width:100%
+  width:100%;
   text-align: center;
   font: 1em sans-serif;
 }
