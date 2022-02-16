@@ -21,7 +21,7 @@
 
 .leftnav{
   display: flex;
- justify-content: end;
+  justify-content: end;
 
 }
 
@@ -91,7 +91,7 @@
 
 .sign2{
   display:block;
- width: 100px;
+  width: 100px;
   height: 50px;
   background-color: #FF9900;
   border-radius: 4px;
