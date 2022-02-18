@@ -118,7 +118,9 @@ ul:hover{
   background: white;
   opacity: 0.5;
 }
-li:hover > ul:hover {
-   opacity: 1;
+li:hover {
+  cursor: pointer;
+  background:transparent;
+  
 }
 
