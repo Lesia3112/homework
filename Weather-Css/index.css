@@ -59,14 +59,17 @@ li{
 .New-Delhi{
   width: 100%;
   background-color:#666699;
+  margin: 0 auto;
 }
 .Lisbon{
   width: 50%;
   background-color:#3399CC;
+  margin: 0 auto;
 }
 .Paris{
   width: 25%;
   background-color:#33CCCC;
+  margin: 0 auto;
 }
 .Belgrade{
   width: 25%;
@@ -75,30 +78,37 @@ li{
 .Venice{
   width: 25%;
   background-color:#C24747;
+  margin: 0 auto;
 }
 .Tel-Aviv{
   width: 25%;
   background-color: #E2674A;
+  margin: 0 auto;
 }
 .Kyiv{
   width: 25%;
   background-color: #FFCC66;
+  margin: 0 auto;
 }
 .Amsterdam{
   width: 25%;
   background-color: #99CC99;
+  margin: 0 auto;
 }
 .Tokyo{
   width: 25%;
   background-color: #669999;
+  margin: 0 auto;
 }
 .San-Francisco{
   width: 50%;
   background-color: #CC6699;
+  margin: 0 auto;
 }
 .Sydney{
   width: 25%;
   background-color: #339966;
+  margin: 0 auto;
 }
 
 /* li:hover{
@@ -108,7 +118,7 @@ ul:hover{
   background: white;
   opacity: 0.5;
 }
-li:hover {
- opacity: 1;
+li:hover > ul:hover {
+   opacity: 1;
 }
 
