@@ -120,7 +120,8 @@ ul:hover{
 }
 li:hover {
   cursor: pointer;
-  background:transparent;
+  background: none;
+  opacity: 1 ;
   
 }
 
