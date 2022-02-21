@@ -50,10 +50,7 @@ li{
   font-size: 16px;
   text-align: center;
   padding-top: 15px;
-  color: white;
-  
-  
- 
+  color: white; 
 }
 
 .New-Delhi{
@@ -112,16 +109,16 @@ li{
 }
 
 /* li:hover{
-  background: white;
-} */
+  background: white; */
+/* }
 ul:hover{
   background: white;
   opacity: 0.5;
+/* } */
+.ul:hover > li{
+  opacity: 0.5;
 }
-li:hover {
-  cursor: pointer;
-  background: none;
-  opacity: 1 ;
-  
+.ul:hover > li:hover{
+  opacity: 1;
 }
 

@@ -24,44 +24,152 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="form">
-        <div class="container-account">
-          <header class="header">
-            <h1 class="header__title">Create an Account</h1>
-          </header>
-          <div class="lable-fname">
-            <label for="fname">First Name</label><br />
-            <input type="text" name="fname" />
+      <form class="c-form" action="" method="get">
+        <!-- title -->
+        <h1 class="c-form__title">Create an Account</h1>
+        <!-- content -->
+        <div class="c-form__content">
+          <label class="e-form-item">
+            <div class="name e-form-item__name">First Name</div>
+            <input class="e-form-item__input" type="text" name="FirstName">
+          </label>
+        </div>
+
+        <div class="c-form__content">
+          <label class="e-form-item">
+            <div class=" name e-form-item__lastname">Last Name</div>
+            <input class="e-form-item__input" type="text" name="LastName">
+          </label>
+        </div>
+
+        <div class="c-form__content">
+          <label class="e-form-email">
+            <div class=" name e-form-email__lable">E-mail</div>
+            <input class="e-form-email__input" type="email" name="Email">
+            <span class="text-bottom">We'll never share your email with anyone else.</span>
+          </label>
+        </div>
+
+        <div class="c-form__radio">
+          <div class="e-radio">
+            <label  class="e-radio__lable" name="radio-l">
+            <input class="e-radio__input" type="radio" name="radio-l">
+            <div class="e-name">Male</div>
+            </label>
           </div>
-          <div class="lable-lname">
-            <label for="lname">Last Name</label><br />
-            <input type="text" name="lname" />
-          </div>
-          <div class="lable-email">
-            <label for="email">E-mail</label><br />
-            <input type="email" name="email" />
-            <div>We'll never share your email with anyone else.</div>
+
+          <div class="e-radio">
+            <label class="e-radio__lable" name="radio-l">
+            <input class="e-radio__input" type="radio" name="radio-l">
+            <div class="e-name">Female</div>
+            </label>
           </div>
         </div>
 
-        <div class="container-profile">
-          <header class="header">
-            <h1 class="header__title">Create an Account</h1>
-          </header>
-          <div class="lable-fname">
-            <label for="fname">First Name</label><br />
-            <input type="text" name="fname" />
-          </div>
-          <div class="lable-lname">
-            <label for="lname">Last Name</label><br />
-            <input type="text" name="lname" />
-          </div>
-          <div class="lable-email">
-            <label for="fname">E-mail</label><br />
-            <input type="email" name="email" />
-          </div>
+        <div class="c-form__content">
+          <label class="e-form-country">
+            <div class="name e-form-country__country">Country</div>
+            <div class="e-form-country__select">
+              <select name="country" id="country">
+                <option value="Ukraine">Ukraine</option>
+                <option value="Canada">Canada</option>
+                <option value="Poland">Poland</option>
+              </select>
+            </div>
+          </label>
         </div>
-      </div>
+
+        <div class="c-form__content">
+          <label class="e-form-city">
+            <div class=" name e-form-city__lable">City</div>
+            <input class="e-form-city__input" type="text" name="city">
+          </label>
+        </div>
+        <div class="c-form__content">
+          <label class="c-form-none">
+            <input class="e-form__none" type="text" name="none">
+          </label>
+        </div>
+        <div class="c-form__text-bottom">
+          <span class="text">By clicking the 'Sign Up' button, you confirm that you accept our <br><a href="#">Terms of Use</a>
+          and  <a href="#">Privacy Policy</a>                       .</;<span>
+        </div>
+
+        <div class="e-form__footer">
+          <span class="name">Have an Account? <a href="#">Log In</a></span>
+        </div>
+      </form>
+
+      <form class="c-form" action="" method="get">
+        <!-- title -->
+        <h1 class="c-form__title">Profile</h1>
+        <!-- content -->
+        <div class="c-form__main">
+          <!-- обгортка фото -->
+          <div class="e-photo">
+            <img class="e-photo__profile" src="./assets/📷 Image.jpg" alt="photo">
+          </div>
+          <!-- контент верхній -->
+            <div class="c-form__content">
+              <div class="c-form-content-block">
+                <div class="c-form__photo">
+                  <label  class="e-photo__lable" name="photo">
+                    <input class="e-photo__input" type="button" >
+                  </label>
+                  <div class="e-button">
+                    <button class="button"></button>
+                    <img src="./assets/02.png" alt="">
+                  </div>
+                </div>
+                <div class="e-photo__text">Up to 1 MB (300x300 px)</div>
+              </div>
+            </div>
+            
+          </div>
+      </form>
+
+
     </div>
   </body>
-</html>
+  </html>
+  
+  <!-- <div class="wrapper">
+    <div class="form">
+      <div class="container-account">
+        <header class="header">
+          <h1 class="header__title">Create an Account</h1>
+        </header>
+        <div class="lable-fname">
+          <label for="fname">First Name</label><br />
+          <input type="text" name="fname" />
+        </div>
+        <div class="lable-lname">
+          <label for="lname">Last Name</label><br />
+          <input type="text" name="lname" />
+        </div>
+        <div class="lable-email">
+          <label for="email">E-mail</label><br />
+          <input type="email" name="email" />
+          <div>We'll never share your email with anyone else.</div>
+        </div>
+      </div>
+
+      <div class="container-profile">
+        <header class="header">
+          <h1 class="header__title">Create an Account</h1>
+        </header>
+        <div class="lable-fname">
+          <label for="fname">First Name</label><br />
+          <input type="text" name="fname" />
+        </div>
+        <div class="lable-lname">
+          <label for="lname">Last Name</label><br />
+          <input type="text" name="lname" />
+        </div>
+        <div class="lable-email">
+          <label for="fname">E-mail</label><br />
+          <input type="email" name="email" />
+        </div>
+      </div>
+    </form>
+  </div> -->
