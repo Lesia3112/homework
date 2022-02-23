@@ -109,6 +109,7 @@ align-items: center;
 }
 .e-form__none{
   width: 500px;
+  height: 40px;
 }
 
 .c-form__text-bottom{
@@ -137,20 +138,85 @@ align-items: center;
   
 }
 
-
-
-.e-photo__input{
-height: 30px;
-width: 140px;
+.btn-photo{
+  width: 140px;
+  height: 30px;
+  display: flex;
+  justify-content: end;
+  padding: 7px 10px 7px 10px;
+  
 }
 
-.c-form__photo{
+
+.c-form__main{
+  display: flex;
+  justify-content: baseline;
+  margin-bottom: 20px;
+}
+.c-form__content2{
+  width: 250px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.help-text{
+  margin-top: 10px;
+  font-size: 13px;
+}
+.e-form-email__input2{
+  width: 248px;
+}
+.submit{
+  width: 150px;
+  height: 40px;
+}
+button{
+  background-color: white;
+}
+.name{
+  color: #545454;
+}
+span{
+  color: #969696;
+}
+
+input, button, select{
+  border: 1px solid #E4E4E4;
+  border-radius: 6px;
+  padding: 7px 10px 7px 10px;
+  
+}
+.btn-del{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
   display: flex;
   justify-content: center;
-  align-content: space-between;
+  align-items: center;
+  padding: 0 ;
 }
+select{
+  color: #545454;
+}
+input:hover, button:hover, select:hover{
+  border-color:#007BFF;
+}
+
+
+/* .e-photo__input{
+height: 30px;
+width: 140px;
+margin-bottom: 0%;
+}
+
+
 .e-button{
   margin-left: 10px;
+}
+.e-photo__lable{
+  padding-top: 12px;
 }
 /* /* .e-button{
   margin-left: 10px;
@@ -159,20 +225,20 @@ width: 140px;
   padding-bottom: 0;
 } */
 
-.button{
+/* .button{
   height: 30px;
   width: 30px;
   margin: 10px 0 0 0 ;
   
-} */
+} 
 
 
 .c-form__photo{
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-.c-form__main{
+  align-content: flex-end;
+} */
+/* .c-form__main{
   display: flex;
   justify-content:flex-start;
   align-items: center;
@@ -181,6 +247,9 @@ width: 140px;
 .c-form-content-block{
   margin-left: 20px;
 }
+link{
+  color: gray;
+} */
 
 /* .text{
   margin-bottom: 20px;

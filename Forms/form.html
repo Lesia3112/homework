@@ -70,7 +70,8 @@
           <label class="e-form-country">
             <div class="name e-form-country__country">Country</div>
             <div class="e-form-country__select">
-              <select name="country" id="country">
+              <select  name="country" id="country">
+                <option selected disabled value="0">Select</option>
                 <option value="Ukraine">Ukraine</option>
                 <option value="Canada">Canada</option>
                 <option value="Poland">Poland</option>
@@ -85,10 +86,9 @@
             <input class="e-form-city__input" type="text" name="city">
           </label>
         </div>
+        
         <div class="c-form__content">
-          <label class="c-form-none">
-            <input class="e-form__none" type="text" name="none">
-          </label>
+          <button class="e-form__none" type="button"></button>
         </div>
         <div class="c-form__text-bottom">
           <span class="text">By clicking the 'Sign Up' button, you confirm that you accept our <br><a href="#">Terms of Use</a>
@@ -99,7 +99,7 @@
           <span class="name">Have an Account? <a href="#">Log In</a></span>
         </div>
       </form>
-
+  
       <form class="c-form" action="" method="get">
         <!-- title -->
         <h1 class="c-form__title">Profile</h1>
@@ -110,30 +110,84 @@
             <img class="e-photo__profile" src="./assets/📷 Image.jpg" alt="photo">
           </div>
           <!-- контент верхній -->
-            <div class="c-form__content">
-              <div class="c-form-content-block">
-                <div class="c-form__photo">
-                  <label  class="e-photo__lable" name="photo">
-                    <input class="e-photo__input" type="button" >
-                  </label>
-                  <div class="e-button">
-                    <button class="button"></button>
-                    <img src="./assets/02.png" alt="">
-                  </div>
-                </div>
-                <div class="e-photo__text">Up to 1 MB (300x300 px)</div>
-              </div>
+            <div class="c-form__content2">
+              <button class="btn-photo" type="button">
+                <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M3.78016 1.33333L5.00016 0H9.00016L10.2202 1.33333H12.3335C13.0668 1.33333 13.6668 1.93333 13.6668 2.66667V10.6667C13.6668 11.4 13.0668 12 12.3335 12H1.66683C0.933496 12 0.333496 11.4 0.333496 10.6667V2.66667C0.333496 1.93333 0.933496 1.33333 1.66683 1.33333H3.78016ZM3.66683 6.66667C3.66683 8.50667 5.16016 10 7.00016 10C8.84016 10 10.3335 8.50667 10.3335 6.66667C10.3335 4.82667 8.84016 3.33333 7.00016 3.33333C5.16016 3.33333 3.66683 4.82667 3.66683 6.66667ZM7.00015 8.80007C8.17835 8.80007 9.13348 7.84494 9.13348 6.66673C9.13348 5.48852 8.17835 4.5334 7.00015 4.5334C5.82194 4.5334 4.86681 5.48852 4.86681 6.66673C4.86681 7.84494 5.82194 8.80007 7.00015 8.80007Z" fill="#969696"/>
+                </svg>
+              </button>
+              <button class="btn-del" type="button">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.00016 12.6667C4.00016 13.4 4.60016 14 5.3335 14H10.6668C11.4002 14 12.0002 13.4 12.0002 12.6667V4.66667H4.00016V12.6667ZM12.6668 2.66667H10.3335L9.66683 2H6.3335L5.66683 2.66667H3.3335V4H12.6668V2.66667Z" fill="#969696"/>
+                </svg>
+              </button><br>
+              <span class="help-text">Up to 1 MB (300x300 px)</span>
             </div>
-            
           </div>
-      </form>
 
+          <div class="c-form__content">
+            <label class="e-form-item">
+              <div class="name e-form-item__name"> Name</div>
+              <input class="e-form-item__input" type="text" name="FirstName">
+            </label>
+          </div>
 
-    </div>
-  </body>
-  </html>
+          <div class="c-form__content">
+            <label class="e-form-email">
+              <div class=" name e-form-email__lable">E-mail</div>
+              <input class="e-form-email__input2" type="email" name="Email">
+              
+            </label>
+          </div>
+          
+          <div class="c-form__content">
+            <label class="e-form-country">
+              <div class="name e-form-country__country">Country</div>
+              <div class="e-form-country__select">
+                <select name="country" id="country">
+                  <option selected disabled value="0">Select</option>
+                  <option value="Ukraine">Ukraine</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Poland">Poland</option>
+                </select>
+              </div>
+            </label>
+          </div>
   
-  <!-- <div class="wrapper">
+          <div class="c-form__content">
+            <label class="e-form-city">
+              <div class=" name e-form-city__lable">City</div>
+              <input class="e-form-city__input" type="text" name="city">
+            </label>
+          </div>
+
+          <div class="c-form__content">
+            <label class="e-form__code">
+              <div class=" name e-form-code__lable">Zip Code
+              </div>
+              <input class=" name e-form-code__input" type="number" name="zipCode">
+            </label>
+          </div>
+
+          <div class="c-form__content">
+            <label class="e-form__number">
+              <div class=" name e-form-number__lable">Phone Number
+              </div>
+              <input class=" name e-form-number__input" type="number" name="number">
+            </label>
+          </div>
+
+          <div class="c-form__content">
+            <button class="submit" type="button"></button>
+          </div>
+        </form>  
+      </div>
+    </body>
+    </html>
+    
+    
+    
+    <!-- <div class="wrapper">
     <div class="form">
       <div class="container-account">
         <header class="header">
