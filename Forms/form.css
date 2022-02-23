@@ -38,6 +38,9 @@ body{
   font-family: Inter;
   font-style: normal;
 }
+.e-form-item{
+  display: block;
+}
 .c-form__content{
 display: inline-block;
 margin-bottom: 20px;
