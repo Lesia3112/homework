@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 1440 px;
+}
+.wrapper{
+  background-color: #E5E5E5;
+  max-width: 1440 px;
+}
+.c-wrapper__container{
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+.c-header__wrapper{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+ 
+  
+}
+.c-logo{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.main-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-logo__text{
+  font-family: Quicksand;
+  font-style: 500;
+  font-size: 35px;
+  margin-left: 14px;
+}
+
+.c-section{
+  display: block;
+  border-top: 1px solid #EFEEF3;
+  padding-top: 55px;
+}
+.c-section__text{
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: 400;
+  margin-bottom: 20px;
+  color: #7690A8;
+}
+
+.c-section__title{
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-style: 600;
+}
+.c-section__container{
+  height: 370px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-card{
+  height: 360px;
+  width: 350px;
+  border: 1px solid #E5EAF4;
+  padding: 40px;
+}
+.c-card:hover{
+  border: 1px solid #3DB370;
+}
+.c-card__svg{
+  height: 64px;
+  width: 64px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 30px;
+ border: 1px solid #E5EAF4;
+ border-radius: 10%;
+}
+
+.c-card__title{
+  margin-bottom: 14px;
+}
+h3{
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 400;
+ 
+}
+
+.c-card__text{
+  font-family: roboto;
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.c-footer{
+  width: 100%;
+  height: 200px;
+  background-color: #16133D;
+  padding-top: 40px;
+  
+}
+
+.c-footer__logo{
+  margin-bottom: 40px;
+}
+.c-footer__container{
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.span_white{
+  color: white;
+}
+.e-icon{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  
+  width: 225px;
+
+}
+.icon__heith {
+  height: 40px;
+  width: 40px;
+}
