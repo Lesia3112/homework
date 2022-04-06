@@ -1,0 +1,30 @@
+.content{
+  width: 100%;
+  
+
+  &__title{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+    &-block {
+      display: flex;
+      justify-content: center;
+      // align-items: center;
+    
+    }
+    &-number{
+      font-size: 15px;
+      margin-top: 3px;
+      margin-right: 6px;
+    }
+    &-text{
+      text-shadow: 2px 0px 2px grey;
+    }
+  &__text{
+    line-height: 2px;
+  }
+    
+  }
+
+}

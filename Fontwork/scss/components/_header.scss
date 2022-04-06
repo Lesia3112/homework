@@ -1,0 +1,64 @@
+.header {
+  background-color: $c-white;
+  
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $c-white;
+
+    &__block{
+      display: flex;
+      justify-content: space-between;
+      // width: 400px;
+    }
+  
+  }
+
+  &__navigation {
+      display:flex;
+      width: fit-content;
+      margin-left: 40px;
+
+      &__link{
+          color: $c-white;
+        }
+      }
+      &__logo{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 55px;
+      }
+      
+      
+    ul.navigation li {
+        display: inline;
+        font-size: 18px;
+      }
+
+    ul.navigation li+li:before{
+        padding: 8px;
+        color: $c-black;
+        content: "/\00a0";
+      }
+    a.breadcrumb{
+        text-decoration: none;
+        color: $c-black;
+       
+      }
+    .language, .navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+     
+      .language__select{
+        font-size: 22px;
+        color: $c-white;
+        -webkit-text-stroke: 1px $c-black;
+      }
+    }    
+
