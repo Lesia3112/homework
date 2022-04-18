@@ -1,5 +1,16 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,500&display=swap");
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/Roboto/Roboto-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/Roboto/Roboto-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,12 +19,15 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 19;
-  margin: 44px 44px 44px 44px;
+  font-size: 19px;
 }
 
 li {
   list-style-type: none;
+}
+
+.wrapper {
+  padding: 44px;
 }
 
 .header {
@@ -58,7 +72,8 @@ li {
   text-decoration: none;
   color: #000;
 }
-.header .language, .header .navigation {
+.header .language,
+.header .navigation {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,6 +104,6 @@ li {
 .content__title-text {
   text-shadow: 2px 0px 2px grey;
 }
-.content__title__text {
-  line-height: 2px;
+.content__text {
+  line-height: 1.5;
 }/*# sourceMappingURL=index.css.map */

@@ -1,18 +1,21 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-body{
+body {
   font-family: $f-roboto;
-  font-size: $fs-base;
-  margin: 44px 44px 44px 44px;
+  font-size: $fs-base + px;
+  
 }
 
-li{
+li {
   list-style-type: none;
 }
 
+.wrapper{
+  padding: 44px;
+}
 // svg{
 //   width: 100%;
 // }
