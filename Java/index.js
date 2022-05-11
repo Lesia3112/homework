@@ -13,10 +13,10 @@
 // alert(`Hello, ${name}!`);
 
 // // приколи з датою
+
 // const dateNow='2022';
 // let birthdayYear=prompt('Рік вашого народження?');
 // alert(dateNow-birthdayYear);
-
 // // квадрат і коло
 // let side='4';
 // let square=prompt('Яка довжина сторони квадрата?');
@@ -133,12 +133,5 @@
 // // };
 // ];
 
-const manMoney = prompt("Введіть суму вашого вкладу");
-const manMoneyValue = manMoney;
-console.log(manMoneyValue);
-const procent = 15;
-const bankingMoney = () => {
-  console.log(`${manMoneyValue} * ${procent}`);
-};
-console.log(bankingMoney);
-const finallyMoney = bankingMoney;
+// ввести суму зарплати, і додати 15% до неї, вивести загальну суму зарплати.
+
