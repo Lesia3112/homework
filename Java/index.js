@@ -125,6 +125,7 @@
 //       suma: sum(),
 //     },
 //   }
+
 // //   const product2={
 // //   name: "melon",
 // //   price: 100,
