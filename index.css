@@ -1,3 +1,21 @@
+.title{
+  background-color: rgb(167, 224, 205);
+  text-align: center;
+
+}
+h1{
+  height: 50px;
+}
+h2{
+  font-size: 45px;
+}
 li{
   font-size: 25px;
+  /* list-style-type: none; */
+}
+a{
+  text-decoration: none;
+  color: black;
+  line-height: 1.25;
+
 }
