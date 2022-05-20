@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.main__button {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.main__button__click {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: rgb(151, 19, 19);
+}
+.main__button__text {
+  font-size: 30px;
+  color: white;
+}
+.header {
+  display: block;
+  text-align: center;
+}
+h1 {
+  color: black;
+}
+.traffic {
+  margin: 0 auto;
+}
+
+.traffic__block {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 120px;
+  height: 330px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.traffic__block__item {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+  z-index: 2;
+  background-color: gray;
+}
+.traffic__block__item:first-child.active {
+  background-color: red;
+}
+.traffic__block__item.active {
+  background-color: yellow;
+}
+.traffic__block__item:last-child.active {
+  background-color: green;
+}
+.trafic__button {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+}
+.button {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+/* .modal::before{
+  padding: 20px;
+  background-color: rgb(151, 150, 150);;
+  opacity: 0,5;
+  height: 100vh;
+} */
+.modal{
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000cc;
+  
+  opacity: 0;
+  pointer-events: none;
+}
+.modal__wrapper{
+  padding: 10px;
+  margin: 0 auto;
+  border: 3px solid rgb(17, 17, 17);
+  border-radius: 5%;
+  height: 600px;
+  background-color: rgb(151, 150, 150);
+  width: 500px;
+}
+/* .modal__block::before {
+  content: '';
+  background-color: rgb(151, 150, 150);  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  
+} */
+
+.show {
+  opacity: 1;
+  pointer-events: all;
+}
+.close__button {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: gray;
+}

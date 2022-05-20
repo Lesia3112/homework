@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>traffic_lights</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- TODO зробити по бему(main) -->
+    <div class="main__button">
+      <button class="main__button__click" type="button" id="js-click-button">
+        <span class="main__button__text">CLICK ME</span>
+      </button>
+    </div>
+    <!-- модальне вікно -->
+    <div class="modal" id="js-modal-traffic">
+      <div class="modal__wrapper">
+        <!-- контент -->
+        <div class="close">
+          <button class="close__button" type="button" id="js-close-button">
+            <span>X</span>
+          </button>
+        </div>
+        <header class="header">
+          <h1>СВІТЛОФОР</h1>
+        </header>
+        <section class="traffic">
+          <div class="traffic__block">
+            <div class="js-circle traffic__block__item active"></div>
+            <div class="js-circle traffic__block__item"></div>
+            <div class="js-circle traffic__block__item"></div>
+          </div>
+          <div class="trafic__button">
+            <button class="button" id="js-button" type="button">
+              <span>switch</span>
+            </button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script defer type="module" src="./index.js"></script>
+  </body>
+</html>
